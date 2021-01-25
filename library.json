@@ -1,0 +1,28 @@
+{
+  "name": "WiFiMQTT",
+  "version": "1.0.0",
+  "description": "A WiFi and MQTT configuration that eases setting up MQTT on an ESP8266/ESP32",
+  "keywords": "wifi, mqtt, esp8266, esp32",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/gramliu/WiFiMQTT"
+  },
+  "authors":
+  [
+    {
+      "name": "Gram Liu",
+      "email": "gramliu@cmu.edu",
+      "url": "http://gramliu.com/",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tzapu/WiFiManager": "^2.0.4-beta",
+    "knolleary/PubSubClient": "^2.8",
+    "bblanchon/ArduinoJson": "^6.17.2"
+  },
+  "frameworks": ["arduino"],
+  "platforms": ["espressif8266", "espressif32"]
+}
