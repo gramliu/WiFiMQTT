@@ -1,6 +1,6 @@
 {
   "name": "WiFiMQTT",
-  "version": "1.0.2",
+  "version": "1.0.2a",
   "description": "A WiFi and MQTT configuration that eases setting up MQTT on an ESP8266/ESP32",
   "keywords": "wifi, mqtt, esp8266, esp32",
   "repository":
@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "tzapu/WiFiManager": "^0.16.0",
+    "tzapu/WiFiManager": "^2.0.4-beta",
     "knolleary/PubSubClient": "^2.8",
     "bblanchon/ArduinoJson": "^6.17.2"
   },
