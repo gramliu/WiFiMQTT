@@ -1,6 +1,6 @@
 {
   "name": "WiFiMQTT",
-  "version": "1.0.2a",
+  "version": "1.0.3",
   "description": "A WiFi and MQTT configuration that eases setting up MQTT on an ESP8266/ESP32",
   "keywords": "wifi, mqtt, esp8266, esp32",
   "repository":
